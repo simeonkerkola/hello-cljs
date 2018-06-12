@@ -1,7 +1,11 @@
-# install dependencies
+# The New Way
 
-lein deps
+## Build and run
 
-##Build cljs once
+$ clj --main cljs.main --watch src --compile hello-cljs.core --repl
 
-lein cljsbuild once dev
+## On a separate windoe, watch for errors
+
+$ tail -f out/watch.log
+
+https://lambdaisland.com/episodes/react-components-reagent#/transcript

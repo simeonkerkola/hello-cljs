@@ -1,1 +1,0 @@
-{"version":3,"file":"\/Users\/simeon.kerkola\/clojure\/hello-cljs\/resources\/public\/javascripts\/cljs-dev\/hello_cljs\/core.js","sources":["core.cljc"],"lineCount":9,"mappings":";AAAA;;AAEA,4BAAA,5BAAMA;AAAN,AAEW,mBAAA,ZAACC;;AAEZ,AAACD","names":["hello-cljs.core\/say-hello","js\/console.log"]}
