@@ -19,7 +19,7 @@
         (r/as-element ; Turn hiccup into a plain React element, which the Motion will then render
           [:div.slider
            [:div.slider-block
-            {:style {:transform (str "translate3d(" (:x style) "px, 0, 0)")}}]])))]])
+            {:style {:transform (str "translate3d(" x "px, 0, 0)")}}]])))]])
 
 (r/render [app]
   (js/document.getElementById "app"))
